@@ -38,15 +38,15 @@ KleinesSample = TRUE
 SpecialSample = FALSE
 
 
-upperdir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda'
+upperdir <- 'INSERT MAIN FOLDER HERE'
 setwd(upperdir)
 source('DCA.r')
 
 #------ INITIALIZATION OF CORPUS ------#
 
 if(AlleGenres1600_1699){
-  codedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/lt2'
-  vtypedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/lt2'
+  codedir <- 'INSERT FOLDER HERE'
+  vtypedir <- 'INSERT FOLDER HERE'
   totalc <- 4620567
   BuduFileExists <- TRUE
   ImamImejuFileExists <- TRUE
@@ -54,8 +54,8 @@ if(AlleGenres1600_1699){
 }
 
 if(Del1500_1699){
-  codedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/delovoj1500-1699'
-  vtypedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/delovoj1500-1699/allverbs'#?
+  codedir <- 'INSERT FOLDER HERE'
+  vtypedir <- 'INSERT FOLDER HERE'
   totalc <- 5032854 
   BuduFileExists <- TRUE
   ImamImejuFileExists <- FALSE
@@ -63,8 +63,8 @@ if(Del1500_1699){
 }
 
 if(Del1600_1699){
-  codedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/delovoj'
-  vtypedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/delovoj'#?
+  codedir <- 'INSERT FOLDER HERE'
+  vtypedir <- 'INSERT FOLDER HERE'
   totalc <- 3366818 
   BuduFileExists <- TRUE
   ImamImejuFileExists <- TRUE
@@ -72,8 +72,8 @@ if(Del1600_1699){
 }
 
 if(Gib1600_1699){
-  codedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/gib1600-1699'
-  vtypedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/gib1600-1699/allverbs'
+  codedir <- 'INSERT FOLDER HERE'
+  vtypedir <- 'INSERT FOLDER HERE'
   totalc <- 1038796
   BuduFileExists <- TRUE
   ImamImejuFileExists <- TRUE
@@ -81,8 +81,8 @@ if(Gib1600_1699){
 }
 
 if(Ver1600_1699){
-  codedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/ver1600-1699'
-  vtypedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/ver1600-1699/allverbs'
+  codedir <- 'INSERT FOLDER HERE'
+  vtypedir <- 'INSERT FOLDER HERE'
   totalc <- 335127
   BuduFileExists <- TRUE
   ImamImejuFileExists <- TRUE
@@ -90,8 +90,8 @@ if(Ver1600_1699){
 }
 
 if(KontrolleAlle1617){
-  codedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/neu'
-  vtypedir <- 'C:/Users/mg/OneDrive/Dokumente/_studium/diss/mds_cda/neu/allverbs'
+  codedir <- 'INSERT FOLDER HERE'
+  vtypedir <- 'INSERT FOLDER HERE'
   totalc <- 4620567 
   BuduFileExists <- TRUE
   ImamImejuFileExists <- TRUE
